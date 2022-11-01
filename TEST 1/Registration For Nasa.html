@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <style>
+       #inbox
+        {
+            background: #d9eeff;
+            width: 710px;
+            height: 780px;
+            margin: auto;
+        }
+       #outbox
+        {
+            margin: auto;
+            height: 905px;
+            width: 905px;
+            border: 2px solid rgb(91, 216, 227);
+            background: rgb(27 60 140);
+            text-align: center;
+            color: rgb(255, 255, 255);
+            
+        }
+        
+
+        .all
+        {
+            margin: auto;
+            padding: 8px;
+            border: 1px solid rgb(79, 146, 240) ;
+            border-radius: 8px;
+            text-align: left;
+            height: 50px;
+            width: 500px;
+            margin-bottom: 18px;
+            color: #8b8b8be6;
+        }
+        #header
+        {
+            margin-top: 50px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        #signin
+        {
+            margin: auto;
+            background: rgba(255, 255, 255, 0);
+            padding:2px;
+            border: 2px solid rgb(79, 146, 240);
+            cursor:pointer;
+            font-size: 18px;
+            border-radius: 8px;
+            margin-bottom: 22px;
+            margin-top: 22px;
+            height: 50px;
+            width: 500px;
+            text-align: center;
+            padding-bottom: 5px;
+            background-color:rgb(58, 176, 255);;
+
+        }
+        #signin:hover{
+            color:rgb(255, 255, 255);
+            background-color: rgb(27 60 140);
+            
+        }
+        #guest:hover{
+            color: rgb(44, 147, 215);
+        }
+        #guest
+        {
+            cursor: pointer;
+            margin-top: 40px;
+            margin-bottom: 30px;
+            color: rgba(38, 172, 255, 0.868);
+        }
+        #notmember
+        {
+            font-size: 16px;
+            color: black;
+        }
+        #register
+        {
+            color: rgba(38, 172, 255, 0.868);
+            cursor: pointer;
+        }
+        #register:hover{
+            color: rgb(27, 113, 167);
+
+        }
+    </style>
+</head>
+<body>
+    <div id="outbox">
+        <div id="inbox">
+            <div id="header" >
+                <img src="nasa 2.png">
+            </div>
+            <div id="name" class="all">
+              <p>Full Name(Required if registering) </p>
+            </div>
+            <div id="profilepic" class="all">
+                <p>Profile Pic Url(optional)</p>
+            </div>
+            <div id="email" class="all">
+                <p>Email</p>
+            </div>
+            <div id="password" class="all">
+                <p>Password</p>
+            </div>
+            <div id="signin" >
+                <p>Sign In</p>
+            </div>
+            <div id="guest">
+                <p>Guest Login</p>
+            </div>
+            <div id="notmember" >
+                <span id="member">Not a member? </span><span id="register"> Register Now</span>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
